@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "ES6",
+		"outDir": "./dist",
+		"moduleResolution": "Node",
+		// "resolveJsonModule": true,
+		"lib": [
+			"DOM",
+			"ESNext"
+		],
+		"types": [
+			"node"
+		],
+		"sourceMap": true,
+	},
+	"include": [
+		"src/*.ts"
+	]
+}

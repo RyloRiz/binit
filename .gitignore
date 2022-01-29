@@ -1,0 +1,8 @@
+# Directories
+build
+dist
+node_modules
+
+# Files
+
+*.tgz

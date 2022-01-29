@@ -1,0 +1,30 @@
+{
+	"name": "binit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc && npm pack --pack-destination build",
+		"watch": "tsc --watch",
+		"postinstall": "node ./dist/postinstall.js"
+	},
+	"keywords": [],
+	"author": "RyloRiz",
+	"license": "ISC",
+	"type": "module",
+	"files": [
+		"/dist"
+	],
+	"dependencies": {
+		"@types/node": "^17.0.13",
+		"climake": "^1.2.1",
+		"semver": "^7.3.5"
+	},
+	"bin": {
+		"binit": "./dist/index.js"
+	},
+	"devDependencies": {
+		"@types/semver": "^7.3.9"
+	}
+}
